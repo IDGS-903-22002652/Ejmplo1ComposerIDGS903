@@ -83,10 +83,10 @@ fun MyPersonajes(personaje: PersonajeTarjeta){
         }
     }
 }
-
+//Tarjetas
 @Composable
 fun Personaje(name: String, color: Color, style: TextStyle){
-   Text(text=name)
+    Text(text=name)
 }
 
 @Composable
